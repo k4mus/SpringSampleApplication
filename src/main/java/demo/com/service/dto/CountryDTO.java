@@ -15,8 +15,6 @@ public class CountryDTO implements Serializable {
 
     private String countryName;
 
-    private String sdasdas;
-
     private Long regionId;
 
     public Long getId() {
@@ -33,14 +31,6 @@ public class CountryDTO implements Serializable {
 
     public void setCountryName(String countryName) {
         this.countryName = countryName;
-    }
-
-    public String getSdasdas() {
-        return sdasdas;
-    }
-
-    public void setSdasdas(String sdasdas) {
-        this.sdasdas = sdasdas;
     }
 
     public Long getRegionId() {
@@ -77,7 +67,6 @@ public class CountryDTO implements Serializable {
         return "CountryDTO{" +
             "id=" + getId() +
             ", countryName='" + getCountryName() + "'" +
-            ", sdasdas='" + getSdasdas() + "'" +
             "}";
     }
 }

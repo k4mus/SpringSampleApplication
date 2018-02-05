@@ -28,9 +28,6 @@ public class Country implements Serializable {
     @Column(name = "country_name")
     private String countryName;
 
-    @Column(name = "sdasdas")
-    private String sdasdas;
-
     @OneToOne
     @JoinColumn(unique = true)
     private Region region;
@@ -55,19 +52,6 @@ public class Country implements Serializable {
 
     public void setCountryName(String countryName) {
         this.countryName = countryName;
-    }
-
-    public String getSdasdas() {
-        return sdasdas;
-    }
-
-    public Country sdasdas(String sdasdas) {
-        this.sdasdas = sdasdas;
-        return this;
-    }
-
-    public void setSdasdas(String sdasdas) {
-        this.sdasdas = sdasdas;
     }
 
     public Region getRegion() {
@@ -109,7 +93,6 @@ public class Country implements Serializable {
         return "Country{" +
             "id=" + getId() +
             ", countryName='" + getCountryName() + "'" +
-            ", sdasdas='" + getSdasdas() + "'" +
             "}";
     }
 }
