@@ -24,10 +24,6 @@
             <column name="country_name" type="varchar(255)">
                 <constraints nullable="true" />
             </column>
-
-            <column name="sdasdas" type="varchar(255)">
-                <constraints nullable="true" />
-            </column>
             <column name="region_id" type="bigint">
                 <constraints unique="true" nullable="true" />
             </column>

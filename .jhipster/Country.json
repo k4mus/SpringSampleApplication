@@ -14,10 +14,6 @@
         {
             "fieldName": "countryName",
             "fieldType": "String"
-        },
-        {
-            "fieldName": "sdasdas",
-            "fieldType": "String"
         }
     ],
     "changelogDate": "20180203183357",
